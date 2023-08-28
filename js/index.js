@@ -1,12 +1,14 @@
-const express = require('express');
-const app = express();
-const port = 3000; // TODO check if port is correct
+#!/usr/bin/env -S node --watch
 
-// TODO more needed?
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
+import * as http from "node:http"
 
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+http.createServer(async (req, res) => {
+  const url = new URL(req.url, req.protocol + '://' + req.headers.host)
+  const question = url.searchParams.get('q') || ''
+  let answer = ""
+  console.log({ question, answer })
+  res.end(answer)
+}).listen({
+  host: '0.0.0.0',
+  port: 8000,
 })

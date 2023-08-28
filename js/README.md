@@ -1,10 +1,9 @@
 # JavaScript boilerplate for Extreme Startup
 
 * All code is in index.js
-* To start, run `npm start` or just `node index.js`
-* (Documentation for routing is available)[https://expressjs.com/en/starter/basic-routing.html]
+* To start, run `./index.js`.
+* Watch mode is on by default
 
 ## Requirements
 
-* Node (most version should work I think)
-* npm/yarn to install `express`
+* Node v18 or higher
