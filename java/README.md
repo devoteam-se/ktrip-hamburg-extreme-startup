@@ -1,7 +1,9 @@
 # Java boilerplate for Extreme Startup
-
-TODO
+Simplest java application that can run and receive calls to localhost 8000. A console printout of all query request.
 
 ## Requirements
+Java installation
 
-TODO
+## Run
+javac Webserver.java
+java Webserver
