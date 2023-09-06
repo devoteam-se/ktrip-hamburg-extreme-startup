@@ -5,8 +5,7 @@ Instructions and a collection of boilerplates for the Extreme Startup Workshop o
 Some steps to get ready: 
 
 ### Form a team!
-1. Find a team! Only requirement is that you're comfortable in the same language.
-  a. 2-3 people is probably most fun
+1. Find a team! Only requirement is that you're comfortable in the same language. 2-3 people is probably most fun
 2. Pick a team name (important)
 
 ### Setup computer stuff
