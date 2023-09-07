@@ -12,7 +12,7 @@ Some steps to get ready:
 ### Setup computer stuff
 No stress on this part, we'll wait for everyone to get this running, and it can (but hopefully won't 🤞) take too long.
 
-0. Get on the correct wifi (probably `Filip's iPhone`, password `devoteam`)
+0. Get on the correct wifi (probably `Filip's Macbook`, no password)
     - Let's hope this works 🤞
 2. Pick the language your group will use (either from the boilerplates or another)
 3. Familiarise yourself with the code
